@@ -306,9 +306,9 @@ lodash@4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-"markedit-api@https://github.com/MarkEdit-app/MarkEdit-api#v0.0.5":
-  version "0.0.5"
-  resolved "https://github.com/MarkEdit-app/MarkEdit-api#7ba0cc8a615881e4029cb6f2acf2c9607a689718"
+"markedit-api@https://github.com/MarkEdit-app/MarkEdit-api#v0.1.0":
+  version "0.1.0"
+  resolved "https://github.com/MarkEdit-app/MarkEdit-api#157e822a24144a8b2fe2d797247e98a4200ac3c6"
 
 meaw@5.0.0:
   version "5.0.0"

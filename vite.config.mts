@@ -4,11 +4,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
+        'markedit-api',
         '@codemirror/view',
         '@codemirror/state',
         '@codemirror/language',
-        '@codemirror/search',
-        '@codemirror/commands',
         '@lezer/common',
         '@lezer/highlight',
         '@lezer/lr',
