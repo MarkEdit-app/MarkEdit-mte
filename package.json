@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Markdown Table Editor for MarkEdit.",
   "scripts": {
-    "build": "vite build && cp dist/markedit-mte.js ~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/markedit-mte.js"
+    "build": "vite build",
+    "reload": "osascript -e 'quit app \"MarkEdit\"' -e 'delay 1' -e 'launch app \"MarkEdit\"'",
+    "uninstall": "rm ~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/$(node -p \"require('./package.json').name\").js"
   },
   "license": "MIT",
   "devDependencies": {
     "@codemirror/language": "^6.0.0",
     "@codemirror/state": "^6.0.0",
     "@codemirror/view": "^6.0.0",
+    "@types/node": "^22.0.0",
     "markedit-api": "https://github.com/MarkEdit-app/MarkEdit-api#v0.1.0",
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
