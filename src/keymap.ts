@@ -15,6 +15,8 @@ export const keyBindings = (tableEditor: TableEditor) => tableActions(tableEdito
 } as KeyBinding));
 
 const tableActions = (tableEditor: TableEditor) => Object.entries({
+  'Shift-Cmd-f': () => tableEditor.format(options),
+  'Alt-Shift-Cmd-f': () => tableEditor.formatAll(options),
   'Tab': () => tableEditor.nextCell(options),
   'Shift-Tab': () => tableEditor.previousCell(options),
   'Enter': () => tableEditor.nextRow(options),

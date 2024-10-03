@@ -61,12 +61,14 @@ _
 
 ### Basic Commands
 
-| Command       | Description               | Keymap    |
-| ------------- | ------------------------- | ----------|
-| Next Cell     | Move to the next cell     | Tab       |
-| Previous Cell | Move to the previous cell | Shift-Tab |
-| Next Row      | Move to the next row      | Enter     |
-| Escape        | Escape from the table     | Cmd-Enter |
+| Command       | Description               | Keymap          |
+| ------------- | ------------------------- | ----------------|
+| Format        | Format the current table  | Shift-Cmd-f     |
+| Format All    | Format all tables         | Alt-Shift-Cmd-f |
+| Next Cell     | Move to the next cell     | Tab             |
+| Previous Cell | Move to the previous cell | Shift-Tab       |
+| Next Row      | Move to the next row      | Enter           |
+| Escape        | Escape from the table     | Cmd-Enter       |
 
 ### Move Focus
 
