@@ -48,7 +48,7 @@ export class TextEditor extends ITextEditor {
 
   deleteLine(row: number): void {
     const { from, to } = this.editor.getLineRange(row);
-    const eol = row === this.getLastRow() ? 0 : this.lineBreak.length;
+    const eol = row === this.getLastRow() ? 0 : 1; // getLineRange already takes line endings into account
     this.editor.setText('', { from, to: to + eol });
   }
 
