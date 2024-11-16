@@ -100,3 +100,5 @@ _
 | Move Row Down     | Move a row down        | Alt-Shift-Cmd-Down  |
 | Move Column Left  | Move a column left     | Alt-Shift-Cmd-Left  |
 | Move Column Right | Move a column right    | Alt-Shift-Cmd-Right |
+
+> There is also a "Table Editor" menu item under the "Extensions" submenu in the status bar.
