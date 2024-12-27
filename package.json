@@ -14,6 +14,7 @@
     "@codemirror/view": "^6.0.0",
     "@types/node": "^22.0.0",
     "markedit-api": "https://github.com/MarkEdit-app/MarkEdit-api#v0.6.0",
+    "markedit-vite": "https://github.com/MarkEdit-app/MarkEdit-vite#v0.1.0",
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
   },

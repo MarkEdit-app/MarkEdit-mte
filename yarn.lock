@@ -317,6 +317,10 @@ lodash@4.17.21:
   version "0.6.0"
   resolved "https://github.com/MarkEdit-app/MarkEdit-api#8525fcdf7c39b2bb561b1902f47fa42304111dfb"
 
+"markedit-vite@https://github.com/MarkEdit-app/MarkEdit-vite#v0.1.0":
+  version "0.1.0"
+  resolved "https://github.com/MarkEdit-app/MarkEdit-vite#fd4f3b296f22521bad45f371b72d177f84a9ac11"
+
 meaw@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/meaw/-/meaw-5.0.0.tgz#aa6fb01050edd0e5ea68e19b81b60d0d88172b91"
