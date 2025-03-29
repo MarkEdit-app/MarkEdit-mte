@@ -41,8 +41,10 @@ export class TextEditor extends ITextEditor {
   }
 
   insertLine(row: number, line: string): void {
-    const replacement = row > this.getLastRow() ? this.lineBreak + line : line + this.lineBreak;
-    const offset = this.editor.getLineRange(row).from;
+    // When row is greater than the last, there's no empty new line at the end
+    const isAtEnd = row > this.getLastRow();
+    const replacement = isAtEnd ? this.lineBreak + line : line + this.lineBreak;
+    const offset = isAtEnd ? this.editor.getText().length : this.editor.getLineRange(row).from;
     this.editor.setText(replacement, { from: offset, to: offset });
   }
 
