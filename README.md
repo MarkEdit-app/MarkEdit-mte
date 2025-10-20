@@ -6,7 +6,7 @@ Learn more about [mte-kernel](https://github.com/susisu/mte-kernel).
 
 ## Installation
 
-Copy [dist/markedit-mte.js](dist/markedit-mte.js) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
+Copy [dist/markedit-mte.js](dist/markedit-mte.js?raw=true) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
 
 You can also run `yarn install && yarn build` to build and deploy the script.
 
