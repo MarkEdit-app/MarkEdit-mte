@@ -1,6 +1,6 @@
 # MarkEdit-mte
 
-Markdown Table Editor for MarkEdit that leverages [markedit-api](https://github.com/MarkEdit-app/MarkEdit-api).
+Markdown Table Editor for [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) that leverages [markedit-api](https://github.com/MarkEdit-app/MarkEdit-api).
 
 Learn more about [mte-kernel](https://github.com/susisu/mte-kernel).
 
