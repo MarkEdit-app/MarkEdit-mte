@@ -6,7 +6,7 @@ Learn more about [mte-kernel](https://github.com/susisu/mte-kernel).
 
 ## Installation
 
-Copy [dist/markedit-mte.js](dist/markedit-mte.js?raw=true) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
+Install this extension from the [MarkEdit Extension Registry](https://markedit-app.github.io/extensions/#markedit-mte).
 
 You can also run `yarn install && yarn build` to build and deploy the script.
 
